@@ -1,0 +1,6 @@
+<?php
+
+	$GLOBALS['cfg']['enable_feature_invite_codes'] = 1;
+	$GLOBALS['cfg']['invite_codes_allow_signedin_users'] = 1;
+
+?>

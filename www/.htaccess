@@ -1,0 +1,2 @@
+RewriteRule ^invite/?$						invite.php?%{QUERY_STRING} [L]
+RewriteRule ^invite(?:/([^/]+))?/?$				invite.php?code=$1&%{QUERY_STRING} [L]
